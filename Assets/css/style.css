@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(reset.css);
+
+:root {
+    --tamanho_fonte_nav: 1em;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #141517;
+    margin: 0 8dvw;
+}
+
+/* Estilização do footer */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5dvh;
+}
+
+.nav_left, .nav_right {
+    display: flex;
+    align-items: center;
+    gap: 2dvw;
+}
+
+.nav_logo {
+    padding: 12px;
+}
+
+.nav_logo img{
+    width: 10dvw;
+}
+
+.nav_categoria-produtos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_categoria-produtos img {
+    width: var(--tamanho_fonte_nav);
+}
+
+.nav_link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: var(--tamanho_fonte_nav);
+    font-weight: 500;
+}
+
+.nav_pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.nav_pesquisa input {
+    width: 12dvw;
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: none;
+    font-size: var(--tamanho_fonte_nav);
+}
+
+.nav_pesquisa label {
+    position: relative;
+    right: 1.8dvw;   
+    cursor: pointer;
+}
+
+.nav_pesquisa label img {
+    width: var(--tamanho_fonte_nav);
+}
+
+.nav_conta, .nav_carrinho {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+} 
+
+.nav_conta img, .nav_carrinho img {
+    width: var(--tamanho_fonte_nav)
+}
