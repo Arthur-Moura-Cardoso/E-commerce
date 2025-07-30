@@ -3,7 +3,7 @@
 @import url(style.css);
 
 .produto_container {
-    margin: 10dvh 5dvw 50dvh;
+    margin: 10dvh 5dvw;
     display: flex;
     gap: 5dvw;
     color: #ffffff;
@@ -26,6 +26,7 @@
     margin-top: 12px;
     display: flex;
     gap: 12px;
+    cursor: pointer;
 }
 
 .produto_mini_imgs img {
@@ -117,4 +118,52 @@
 
 .produto_info_frete img {
     width: 2dvw;
+}
+
+.sobre_produto {
+    margin: 0 5dvw 10dvh;
+    color: #ffffff;
+}
+
+.sobre_produto h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.info_block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    background: #121214;
+    padding: 3em;
+    overflow: hidden;
+}
+
+.info_lista {
+    width: 50%;
+}
+
+.info_lista li:nth-child(odd) {
+    background: #0E0E10;
+}
+
+.info_lista li{
+    padding: 1em;
+}
+
+.info_flex {
+    display: flex;
+    align-items: center;
+}
+
+.produtos_semelhantes {
+    margin: 0 5dvw 10dvh;
+    color: #ffffff;
+}
+
+.produtos_semelhantes h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 1em;
 }

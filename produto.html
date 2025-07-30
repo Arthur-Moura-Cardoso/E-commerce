@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="Assets/css/style.css">
     <link rel="stylesheet" href="Assets/css/produto.css">
 
-    <script src="Assets/script/produto.js" defer></script>
+    <script type="module" src="Assets/script/produto.js" defer></script>
 </head>
 <body>
     <nav>
@@ -50,11 +50,11 @@
             <div class="produto_imgs">
                 <img src="Assets/img/produto_test-img.png" alt="Produto Exemplo" class="produto_img_principal">
                 <div class="produto_mini_imgs">
-                    <img src="Assets/img/produto_test-img.png" alt="Produto Exemplo">
-                    <img src="Assets/img/produto_test-img.png" alt="Produto Exemplo">
-                    <img src="Assets/img/produto_test-img.png" alt="Produto Exemplo">
-                    <img src="Assets/img/produto_test-img.png" alt="Produto Exemplo">
-                    <img src="Assets/img/produto_test-img.png" alt="Produto Exemplo">
+                    <img class="mini_img" src="" alt="Produto Exemplo">
+                    <img class="mini_img" src="" alt="Produto Exemplo">
+                    <img class="mini_img" src="" alt="Produto Exemplo">
+                    <img class="mini_img" src="" alt="Produto Exemplo">
+                    <img class="mini_img" src="" alt="Produto Exemplo">
                 </div>
             </div>
 
@@ -87,6 +87,45 @@
                     <img src="Assets/img/caminhao-icon.png" alt="">
                     <p>Frete gratuito para toda a cidade de São Paulo</p>
                 </div>
+            </div>
+        </section>
+        <section class="sobre_produto">
+            <h2>Informações adicionais</h2>
+            <div class="info_block">
+                <h3>Gerais</h3>
+                <div class="info_flex">
+                    <ul class="info_lista">
+                        <li>Marca:</li>
+                        <li>Modelo:</li>
+                        <li>Tamanho:</li>
+                        <li>Processador:</li>
+                        <li>Tecnologias:</li>
+                    </ul>
+                    <ul class="info_lista">
+                        <li>Apple</li>
+                        <li>iPhone 14 Pro</li>
+                        <li>6.1 polegadas</li>
+                        <li>A16 Bionic</li>
+                        <li>5G, Wi-Fi 6E</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <section class="produtos_semelhantes">
+            <h2>Similares que você possa gostar</h2>
+            <div class="produtos_container">
+                <!-- <div class="card_produto" meta-id="${produto.id}">
+                    <img class="card_produto_img" src="Assets/img/produto_test-img.png" alt="${produto.nome}">
+                    <div class="card_produto_flex">
+                        <div class="card_produto_info">
+                            <h3 class="card_produto_nome">produto.nome</h3>
+                            <img class="card_produto_classificacao" src="Assets/img/estrelas.png" alt="">
+                            <button class="card_produto_botao">Comprar</button>
+                        </div>
+                        <p class="card_produto_valor">R$00,00</p>
+                    </div>
+                </div> -->
             </div>
 
         </section>
